@@ -105,5 +105,54 @@ else
 }
 
 
+//Using Switch Case 
+//Access the First number and Second number.then access Operator and perform Operation
+decimal n1, n2, result;
+char Operator;
+Console.WriteLine("Enter the First Number");
+n1 = Convert.ToDecimal(Console.ReadLine());
+Console.WriteLine("Enter the Second Number");
+n2 = Convert.ToDecimal(Console.ReadLine());
+Console.WriteLine("Enter the Operater ");
+Operator = Convert.ToChar(Console.ReadLine());
+
+switch(Operator)
+{
+    case '+':
+        {
+            result = n1 + n2;
+            Console.WriteLine("The required result is "+ result);
+            break;
+        }
+    case '-':
+        {
+            result = n1 - n2;
+            Console.WriteLine("The required result is " + result);
+            break;
+        }
+    case '*':
+        {
+            result = n1 * n2;
+            Console.WriteLine("The required result is " + result);
+            break;
+        }
+    case '/':
+        {
+            result = n1 / n2;
+            Console.WriteLine("The required result is " + result);
+            break;
+        }
+    case '%':
+        {
+            result = n1 % n2;
+            Console.WriteLine("The required result is " + result);
+            break;
+        }
+    default:
+        {
+            Console.WriteLine("Invalid Operator");
+            break;
+        }
+}
 
 

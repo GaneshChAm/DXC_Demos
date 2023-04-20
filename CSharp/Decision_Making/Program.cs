@@ -52,6 +52,7 @@ else
     Console.WriteLine("Not Eligible");
 }
 
+
 //Nested if condition
 Console.WriteLine("Enter Your Age");
 int Age = Convert.ToInt16(Console.ReadLine());
@@ -72,3 +73,60 @@ else
 {
     Console.WriteLine("Not Eligible");
 }
+
+//Switch Case- Execution time is less.and directly jump to answer.
+//Used mostly for menu drew situations.
+
+
+int day = 3;
+switch(day)
+{
+    case 1:
+        {
+            Console.WriteLine("Monday");
+            break;
+        }
+    case 2:
+        {
+            Console.WriteLine("Tuesday");
+            break;
+        }
+    case 3:
+        {
+            Console.WriteLine("Wenesday");
+            break;
+        }
+    case 4:
+        {
+            Console.WriteLine("Tuesday");
+            break;
+        }
+    case 5:
+        {
+            Console.WriteLine("Friday");
+            break;
+        }
+    case 6:
+        {
+            Console.WriteLine("Saturday");
+            break;
+        }
+    case 7:
+        {
+            Console.WriteLine("Sunday");
+            break;
+        }
+        default:
+        {
+            Console.WriteLine("Invalid Input");
+            break;
+        }
+
+}
+//With Concantation
+int a = 10, b = 15;
+int c = a + b;
+Console.WriteLine("The sum of "+ a +"and"+ b +"is"+ c);
+//Without Concatation using '$'
+int d = 10, e = 15;
+Console.WriteLine($"The  sum {d} and {e} is {d + e}");

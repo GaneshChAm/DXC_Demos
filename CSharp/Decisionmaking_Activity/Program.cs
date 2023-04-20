@@ -70,9 +70,9 @@ Marks3 = Convert.ToInt16(Console.ReadLine());
 //Total Marks
 TotalMarks=(Marks1 + Marks2 + Marks3);
 Console.WriteLine("Your Score is " + TotalMarks);
-//Total Average
+//Total Percentage
 Average = (TotalMarks/3);
-Console.WriteLine("Your Average is " + Average);
+Console.WriteLine("Your Percentage is " + Average);
 //Grade
 if (Average >= 90)
 {

@@ -43,9 +43,30 @@ Console.WriteLine("Enter Your Age");
 int age = Convert.ToInt16(Console.ReadLine());
 Console.WriteLine("Enter Your Qualification");
 int qual = Convert.ToInt16(Console.ReadLine());
-if (age>=18 && qual>=10)
+if (age>=18 && qual>=12)
 {
     Console.WriteLine("Eligible");
+}
+else
+{
+    Console.WriteLine("Not Eligible");
+}
+
+//Nested if condition
+Console.WriteLine("Enter Your Age");
+int Age = Convert.ToInt16(Console.ReadLine());
+if(Age>=18)
+{
+    Console.WriteLine("Enter Your Qualification");
+    int Qual = Convert.ToInt16(Console.ReadLine());
+    if (Qual>=12)
+    {
+        Console.WriteLine("Eligible");
+    }
+    else 
+    {
+        Console.WriteLine("Not Eligible");
+    }
 }
 else
 {

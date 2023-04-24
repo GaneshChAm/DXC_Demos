@@ -21,3 +21,22 @@ do
     Console.WriteLine(k);
     k++;
 }while(k >= 10);
+
+//Nested Loops-Loop within another Loop
+for (int i = 1;i <= 10;i++ )
+{
+    for( j= 1; j <= 10;j++ )
+    {
+        Console.Write(j);
+    }
+    Console.WriteLine();
+}
+
+
+
+
+
+
+
+
+

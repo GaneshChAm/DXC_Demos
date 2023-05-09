@@ -126,7 +126,7 @@ switch(day)
 //With Concantation
 int a = 10, b = 15;
 int c = a + b;
-Console.WriteLine("The sum of "+ a +"and"+ b +"is"+ c);
+Console.WriteLine("The sum of "+ a +" and "+ b +" is "+ c);
 //Without Concatation using '$'
 int d = 10, e = 15;
 Console.WriteLine($"The  sum {d} and {e} is {d + e}");

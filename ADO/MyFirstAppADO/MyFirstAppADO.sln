@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstAppADO", "MyFirstAppADO\MyFirstAppADO.csproj", "{2B6FEDF9-BB99-432F-B688-45D620D7228B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B6FEDF9-BB99-432F-B688-45D620D7228B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B6FEDF9-BB99-432F-B688-45D620D7228B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B6FEDF9-BB99-432F-B688-45D620D7228B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B6FEDF9-BB99-432F-B688-45D620D7228B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C53640D6-A190-4187-8E11-C6FA62149440}
+	EndGlobalSection
+EndGlobal
